@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+       url('../font/NotoSans-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 500;
+  src: local('※'),
+       url('../font/NotoSans-Medium.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+       url('../font/NotoSans-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+       url('../font/NanumMyeongjo-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+       url('../font/NanumMyeongjo-Bold.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 400;
+  src: local('※'),
+       url('../font/NanumSquareR.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'NanumSquare';
+  font-style: normal;
+  font-weight: 700;
+  src: local('※'),
+       url('../font/NanumSquareB.woff2') format('woff2'),
+}
+
