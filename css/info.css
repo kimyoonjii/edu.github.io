@@ -12,7 +12,7 @@ a {
 
 body {font-family: 'Noto Sans KR', sans-serif; background: #f5f5f5; color: #000; max-width: 1300px; margin: 0 auto;}
 
-nav ul {position: absolute; top: 60px; right: 170px;}
+nav ul {position: absolute; top: 60px; right: 100px;}
 nav ul li {display: inline; margin-left: 50px;}
 nav ul li a {font-size: 20px; transition: 0.3s;}
 nav ul li a:hover {color: #FDD808;}
