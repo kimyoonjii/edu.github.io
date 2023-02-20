@@ -51,10 +51,10 @@ border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent tr
 #publishing .slide .article .project-img {width: 35vw; position: relative; top: -20px; left: 11%; box-shadow: 0 30px 60px rgb(17 20 39 / 27%); border-radius: 5px;}
 
 #uiux-view .slide .article .text-box,
-#publishing .slide .article .text-box {position: absolute; top: 21%; left: 53%; max-width: 35vw;}
+#publishing .slide .article .text-box {position: absolute; top: 25%; left: 53%; max-width: 35vw;}
 
 #uiux-view .slide .article .project-text-box,
-#publishing .slide .article .project-text-box {position: absolute; top: -9%; left: 53%;}
+#publishing .slide .article .project-text-box {position: absolute; top: -5%; left: 53%;}
 #uiux-view .slide .article .text-box h3, #publishing .slide .article .text-box h3 {font-size: 27px; margin-bottom: 15px; font-weight: 500;}
 #uiux-view .slide .article .text-box p,
 #publishing .slide .article .text-box p {font-size: 17px; line-height: 24px; color: #5A5A5A; margin-bottom: 20px;}
