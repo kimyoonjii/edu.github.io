@@ -25,7 +25,7 @@ div {font-family: 'Noto Sans KR', sans-serif; background: #f5f5f5; color: #000;}
 .intro div p {font-weight: 500; font-size: 40px; line-height: 55px;}
 .intro div p span.border {-webkit-text-stroke: 1px black; color: #fff;}
 .intro div p span.border:hover {background-color: #FDD808;}
-.intro div nav ul {position: relative; top: -100px; right: -1000px;}
+.intro div nav ul {position: relative; right: -1000px;}
 .intro div nav ul li {display: inline; margin-left: 50px;}
 .intro div nav ul li a {font-size: 20px; transition: 0.3s;}
 .intro div nav ul li a:hover {color: #FDD808;}
@@ -40,9 +40,9 @@ border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent tr
 #uiux-view > .fp-controlArrow.fp-next,
 #publishing > .fp-controlArrow.fp-next {right: 55px; border-width: 22px 0 22px 21px; border-color: transparent transparent transparent #A7A7A7;}
 
-#uiux-view h2, #publishing h2 {position: relative; top: -20px; left: 50px; padding-bottom: 5px; font-size: 26px; font-weight: 700;}
+#uiux-view h2, #publishing h2 {position: relative; top: 0; left: 50px; padding-bottom: 5px; font-size: 26px; font-weight: 700;}
 #uiux-view div.slide:nth-child(3) h2 {position: relative; top: -50px; left: 50px; padding-bottom: 5px; font-size: 26px; font-weight: 700;}
-#uiux-view .project-tit, #publishing .project-tit {position: relative; top: -170px;}
+#uiux-view .project-tit, #publishing .project-tit {position: relative; top: -100px;}
 #uiux-view .slide .article,
 #publishing .slide .article {display: flex; flex-direction: row; position: relative;}
 #uiux-view .slide .article img,
