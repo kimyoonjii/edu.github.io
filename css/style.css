@@ -67,6 +67,44 @@ border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent tr
 #publishing .slide .article .more i {margin-left: 5px;}
 
 
+@media screen and (max-width: 1440px) {
+	/* 맥북 적용 CSS */
+#uiux-view > .fp-controlArrow.fp-prev,
+#publishing > .fp-controlArrow.fp-prev {left: 55px; width: 0;
+border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent transparent;}
+#uiux-view > .fp-controlArrow.fp-prev,
+#publishing > .fp-controlArrow.fp-prev {left: 55px; width: 0;border-width: 22px 21px 22px 0; border-color: transparent #A7A7A7 transparent transparent;}
+
+#uiux-view > .fp-controlArrow.fp-next,
+#publishing > .fp-controlArrow.fp-next {right: 55px; border-width: 22px 0 22px 21px; border-color: transparent transparent transparent #A7A7A7;}
+
+#uiux-view h2, #publishing h2 {position: relative; top: 0; left: 50px; padding-bottom: 5px; font-size: 26px; font-weight: 700;}
+#uiux-view div.slide:nth-child(3) h2 {position: relative; top: -50px; left: 50px; padding-bottom: 5px; font-size: 26px; font-weight: 700;}
+#uiux-view .project-tit, #publishing .project-tit {position: relative; top: -150px;}
+#uiux-view .slide .article,
+#publishing .slide .article {display: flex; flex-direction: row; position: relative;}
+#uiux-view .slide .article img,
+#publishing .slide .article img {width: 55vw; position: relative; top: -40px;}
+#uiux-view .slide .article .project-img,
+#publishing .slide .article .project-img {width: 35vw; position: relative; top: -20px; left: 11%; box-shadow: 0 30px 60px rgb(17 20 39 / 27%); border-radius: 5px;}
+
+#uiux-view .slide .article .text-box,
+#publishing .slide .article .text-box {position: absolute; top: 25%; left: 53%; max-width: 500px;}
+
+#uiux-view .slide .article .project-text-box,
+#publishing .slide .article .project-text-box{position: absolute; top: 0; left: 53%;}
+#uiux-view .slide .article .text-box h3, #publishing .slide .article .text-box h3 {margin-bottom: 15px; font-weight: 500;}
+#uiux-view .slide .article .text-box p,
+#publishing .slide .article .text-box p {font-size: 16px; line-height: 20px; color: #5A5A5A; margin-bottom: 20px;}
+#uiux-view .slide .article .text-box ul li,
+#publishing .slide .article .text-box ul li {font-size: 14px; color: #5A5A5A; margin-bottom: 5px;}
+#uiux-view .slide .article .more,
+#publishing .slide .article .more {display: inline-block; position: relative; margin: 2px; padding: 7px 15px; border: 1px solid rgba(0, 0, 0, 0.2); border-radius: 3px; background: #1d1d1d; font-size: 13px; line-height: 1.2; color: #fff; text-align: center; box-sizing: border-box; vertical-align: middle; transition: all .3s; cursor: pointer; margin: 10px 0;}
+#uiux-view .slide .article .more:hover,  #publishing .slide .article .more:hover {opacity: 0.8;}
+#uiux-view .slide .article .more i,
+#publishing .slide .article .more i {margin-left: 5px;}
+}
+
 /* #publishing > .fp-controlArrow.fp-prev {left: 55px; width: 0;
   border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent transparent;}
   #publishing > .fp-controlArrow.fp-prev {left: 55px; width: 0;border-width: 22px 21px 22px 0; border-color: transparent #FDD808 transparent transparent;}
