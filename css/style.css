@@ -25,7 +25,7 @@ div {font-family: 'Noto Sans KR', sans-serif; background: #f5f5f5; color: #000;}
 .intro div p {font-weight: 500; font-size: 40px; line-height: 55px;}
 .intro div p span.border {-webkit-text-stroke: 1px black; color: #fff;}
 .intro div p span.border:hover {background-color: #FDD808;}
-.intro div nav ul {position: relative; right: -900px;}
+.intro div nav ul {position: absolute; top: 60px; right: 100px; }
 .intro div nav ul li {display: inline; margin-left: 50px;}
 .intro div nav ul li a {font-size: 20px; transition: 0.3s;}
 .intro div nav ul li a:hover {color: #FDD808;}
