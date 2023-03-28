@@ -15,6 +15,7 @@
   <title>김윤지 | 웹퍼블리셔 포트폴리오</title>
 </head>
 <body>
+  <!-- 헤더 영역 -->
   <header>
     <div>
       <h1><a href="#">YoonJi</a></h1>
@@ -32,12 +33,14 @@
         <span></span>
     </div>
   </header>
-  <section id="intro" class="page">
+  <!--인트로 영역-->
+  <section id="intro  " class="page">
     <div>
       <span>Portfolio</span>
     </div>
   </section>
-    
+  
+  <!--introduce영역-->
   <section id="need" class="page">
     <div class="container">
       <div class="need-tit">
@@ -59,6 +62,7 @@
     </div>
   </section>
 
+  <!--About Me,education,skill영역-->
   <section id="about" class="page">
     <div class="container">
         <ul class="cards">
@@ -115,6 +119,7 @@
     </div>
   </section>
 
+  <!--project 영역-->
   <section id="work-1" class="project page">
     <div class="work-tit">
       <p>WORKS.</p>
@@ -185,9 +190,72 @@
         </div>
       </div>
 
+      <div class="content reverse">
+        <div class="img-box">
+          <img src="./img/uiux-pc-01.png" alt="미리보기" class="project-img">
+        </div>
+        <div class="text-box right-text">
+          <h3>UI/UX 사이트 리뉴얼 디자인 - 01</h3>
+          <h4>메이크업 브랜드 'hince'</h4>
+          <p>기존 사이트를 리뉴얼하여 새롭게 디자인한 사이트 입니다. 힌스 사이트 리뉴얼에서는 힌스의 감성을 담은 무드 이미지를 적극적으로 활용하여 사이트에 머무는 것이 더 풍부하고 따뜻하게 느껴질 수 있도록 디자인을 하고자 합니다. 시선을 산만하게 하는 부분들을 최대한 없애면서 간결한 디자인으로 가독성과 판독성을 늘렸습니다.</p>
+          <ul>
+            <li>작업기간: 2021.08 - 2021.09</li>
+            <li>기여도: 100%(개인 프로젝트)</li>
+            <li>사용툴: XD / Photoshop</li>
+          </ul>
+          <div>
+            <a href="./pdf/uiux-1.pdf" target="_blank" class="more">바로가기<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
     </div> 
   </section>
 
+  <section id="work-3" class="project page">
+    <div class="container">
+      <div class="content">
+        <div class="img-box">
+          <img src="./img/uiux-pc-02.png" alt="미리보기" class="project-img">
+        </div>
+        <div class="text-box">
+          <h3>UI/UX 사이트 리뉴얼 디자인 - 02</h3>
+          <h4>가방 및 악세사리 브랜드 'Fennec'</h4>
+          <p>기존 사이트를 리뉴얼하여 새롭게 디자인한 사이트 입니다. 페넥은 미니멀한 스타일과 소비자 친화적 디자인을 필두로 클래식한 디자인과 기능성의 밸런스를 중요하게 생각하는 브랜드입니다. 페넥만의 톡톡튀는 컬러감을 살려 웹사이트의 메인페이지,상세페이지를 리뉴얼 디자인 하였습니다.</p>
+          <ul>
+            <li>작업기간: 2021.09 - 2021.10</li>
+            <li>기여도: 100%(개인 프로젝트)</li>
+            <li>사용툴: XD / Photoshop</li>
+          </ul>
+          <div>
+            <a href="./pdf/uiux-2.pdf" target="_blank" class="more">바로가기<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content reverse">
+        <div class="img-box">
+          <img src="./img/uiux-app.png" alt="미리보기" class="project-img">
+        </div>
+        <div class="text-box right-text">
+          <h3>MOBILE APP 리뉴얼 디자인</h3>
+          <h4>요리 레시피 어플 '해먹'</h4>
+          <p>사용자에게 효과적인 정보 전달과 기존앱의 불편함을 개선하여 디자인 하였습니다. 미니멀한 구성을 통해 사용자들이 편리하게 이용할 수 있도록 초점을 맞추었습니다.</p>
+          <ul>
+            <li>작업기간: 2021.09 - 2021.10</li>
+            <li>기여도: 100%(개인 프로젝트)</li>
+            <li>사용툴: XD / Photoshop</li>
+          </ul>
+          <div>
+            <a href="./pdf/app.pdf" target="_blank" class="more">바로가기<i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+  </section>
+
+  <!-- 푸터 영역 -->
   <section id="footer" class="page">
     <div class="container">
       <div class="footer-top">
@@ -204,7 +272,7 @@
     </div>
   </section>
 
-
+  <!-- Script -->
   <script>
     $('.hamburger-btn').click(function() {
       $(this).toggleClass('on');
