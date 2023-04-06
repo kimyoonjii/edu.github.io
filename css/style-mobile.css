@@ -25,7 +25,7 @@ header nav.on {left: 20%;}
 /* 인트로 페이지 */
 #intro {position: relative; background-color: #000; width: 100%; height: 100vh; color: #fff;}
 #intro div {display: inline-block;}
-#intro div span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  font-size: 36px; font-weight: 700; letter-spacing: 30px;}
+#intro div span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  font-size: 30px; font-weight: 700; letter-spacing: 20px;}
 
 /* 함께일할 퍼블리셔를 찾고 계신가요? */
 #need {position: relative; background-color: #000; width: 100%; height: 100vh;}
