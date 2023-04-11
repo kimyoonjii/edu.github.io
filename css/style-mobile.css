@@ -28,8 +28,8 @@ header nav.on {left: 20%;}
 #intro div span {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  font-size: 30px; font-weight: 700; letter-spacing: 20px;}
 
 /* 함께일할 퍼블리셔를 찾고 계신가요? */
-#need {position: relative; background-color: #000; width: 100%; height: 100vh;}
-#need div.container {position: relative; max-width: 1300px; margin: 0 auto; color: #fff;}
+#need {position: relative; background-color: #000; width: 100%;}
+#need div.container {position: relative; width: 100%; margin: 0 auto; color: #fff;}
 #need div.need-tit {text-align: center;}
 #need div.need-tit p {font-size: 40px; color: #999; padding-top: 150px;}
 #need div.need-tit p span {color: #28FF65;}
@@ -37,7 +37,7 @@ header nav.on {left: 20%;}
 #need div.need-con {display: flex; justify-content: space-between; flex-direction: column; margin-top: 100px;}
 #need div.need-con div.con-left {flex-basis: 100%; text-align: center; font-size: 29px;text-align: center; line-height: 1.5; color: #fff; margin-bottom: 40px;}
 #need div.need-con div.con-right {flex-basis: 100%; padding: 0 20px;}
-#need div.need-con div.con-right ul {border-top: 1px solid #fff; padding: 40px 0 0 50px;}
+#need div.need-con div.con-right ul {border-top: 1px solid #fff; padding: 20px 10px;}
 #need div.need-con div.con-right ul li {font-size: 15px; line-height: 2;}
 #need div.need-con div.con-right ul li::before {content: ''; display: inline-block; width: 5px; height: 5px; background-color: #fff; margin: 0 8px 4px 0;} 
 
@@ -68,7 +68,7 @@ header nav.on {left: 20%;}
 .project div.work-tit p {font-size: 40px; color: #28FF65; line-height: 80px; letter-spacing: 10px;}
 div.content {display: flex; flex-direction: column;}
 div.content div.img-box {position: relative; width: 100%; padding: 0 10px;}
-div.content div.img-box img {display: block; height: 100%;}
+div.content div.img-box img {display: block;}
 div.content div.text-box {display: flex; flex-direction: column; justify-content: center; width: 100%; color: #fff; padding: 40px 10px;}
 div.content div.text-box h3 {margin-bottom: 10px;}
 div.content div.text-box p {width: 90%; margin-bottom: 10px;}
